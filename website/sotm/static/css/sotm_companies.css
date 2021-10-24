@@ -8,7 +8,7 @@
   padding-left: 0 !important;
 }
 
-a,
+.postcard__tagbox a,
 a:hover {
   font-weight: 600;
   color: #fff;
@@ -44,11 +44,13 @@ a:hover {
 }
 
 .postcard.dark {
-  background-image: -webkit-gradient(linear,
-      left top,
-      right top,
-      from(#1f1f1f),
-      to(#5e5e5e));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#1f1f1f),
+    to(#5e5e5e)
+  );
   background-image: linear-gradient(to right, #1f1f1f, #5e5e5e);
   /* Add the blur effect */
 }
@@ -236,10 +238,14 @@ a:hover {
 }
 
 .paginator-btn {
-  font-family: 'Comfortaa', cursive !important;
+  font-family: "Comfortaa", cursive !important;
   text-align: center !important;
   justify-content: center;
   font-size: 40px;
   background-color: var(--theme-color);
-  border-radius: 100px;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px !important;
+  padding: 5px !important;
 }
